@@ -1,3 +1,4 @@
+int sum = 0;
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600);
@@ -13,7 +14,7 @@ for(int i=0; i<5; i++){// the initial is numbered in index
 for(int j=0; j<5; j++){
    Serial.println(mine[j]+5);
 }
-int sum = 0;
+
 for(int k=0; k<5; k++){
   sum = sum + mine[k];  
   Serial.println(sum);
